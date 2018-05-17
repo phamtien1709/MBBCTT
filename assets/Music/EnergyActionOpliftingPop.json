@@ -1,0 +1,1314 @@
+[
+    {
+        "timeAppear": 2.81004643,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 4.67991161,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 6.56003046,
+        "nodeID": 100
+    },
+    {
+        "timeAppear": 7.49996758,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 7.95992661,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 8.429895,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 8.900108,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 9.370077,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 9.840046,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 10.3100147,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 10.7799826,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 11.2499514,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 11.4799309,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 11.70991,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 11.9499,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 12.1798792,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 12.4201126,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 12.6500921,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 12.8900814,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 13.1200609,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 14.5299673,
+        "nodeID": 100
+    },
+    {
+        "timeAppear": 14.9999352,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 15.4598942,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 15.9301071,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 16.2799587,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 16.4000759,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 16.6400661,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 16.8700447,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 17.3400135,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 17.5699921,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 17.8099823,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 18.160078,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 18.2799511,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 18.50993,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 18.74992,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 19.2098789,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 19.4501114,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 19.6800919,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 20.0299435,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 20.15006,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 20.390049,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 20.850008,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 21.0899982,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 21.3199768,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 21.5599651,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 22.0299339,
+        "nodeID": 100
+    },
+    {
+        "timeAppear": 22.4999027,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 22.9601059,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 23.4300747,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 23.78896,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 23.9000435,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 24.1400337,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 24.5999928,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 24.8399811,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 25.0699615,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 25.30995,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 25.6668816,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 25.7879753,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 26.0179539,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 26.4879227,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 26.7179031,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 26.9578915,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 27.1890926,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 27.5340614,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 27.654911,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 27.8939228,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 28.3551025,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 28.5950928,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 28.8250713,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 29.0650616,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 30.0001144,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 30.4600735,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 30.9300423,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 31.286,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 31.4080677,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 31.6470814,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 32.1089935,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 32.34703,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 32.5770073,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 32.8179741,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 33.16392,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 33.28599,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 33.51499,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 33.98594,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 34.2149429,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 34.4559059,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 34.6871071,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 35.02988,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 35.15097,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 35.3899841,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 35.85092,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 36.08993,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 36.32089,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 36.56088,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 36.9180527,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 37.0389023,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 37.2679062,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 37.96004,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 38.43001,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 38.89998,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 39.13997,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 39.60188,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 39.8408928,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 40.072094,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 40.3120842,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 40.669014,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 40.780098,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 41.01911,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 41.4800453,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 41.71906,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 41.950016,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 42.1809731,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 42.6499634,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 42.8899536,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 44.5300827,
+        "nodeID": 100
+    },
+    {
+        "timeAppear": 45.00005,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 45.46001,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 45.9299774,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 46.39995,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 46.869915,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 47.3398857,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 47.8100967,
+        "nodeID": 100
+    },
+    {
+        "timeAppear": 48.2800674,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 48.7500343,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 49.2099953,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 49.6799622,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 50.1499329,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 50.6199,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 51.0901146,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 51.56008,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 52.03005,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 52.50002,
+        "nodeID": 100
+    },
+    {
+        "timeAppear": 52.9599762,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 53.4299469,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 53.8999138,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 54.3698845,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 54.8400955,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 55.3100662,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 55.7800331,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 56.2500038,
+        "nodeID": 100
+    },
+    {
+        "timeAppear": 56.70996,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 57.17993,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 57.6499,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 58.1201134,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 58.59008,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 59.06005,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 59.5300179,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 59.9999847,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 60.4599457,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 60.9299126,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 61.3998833,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 61.6401176,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 62.1000748,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 62.340065,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 62.5700455,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 62.81003,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 63.1598854,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 63.2800026,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 63.5099831,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 63.9841,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 64.21188,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 64.45212,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 64.68405,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 65.0390244,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 65.1510849,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 65.3910751,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 65.8510361,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 66.09005,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 66.32101,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 66.56295,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 66.91499,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 67.03609,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 67.26607,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 67.9599152,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 68.4298859,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 68.90009,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 69.14008,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 69.6081,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 69.84492,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 70.07612,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 70.31708,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 70.6630249,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 70.7850952,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 71.0141,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 71.48505,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 71.71307,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 71.95502,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 72.18597,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 72.5389938,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 72.65008,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 72.8991,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 73.59002,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 73.81999,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 74.05998,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 74.52995,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 74.75993,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 82.49989,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 82.96009,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 83.43006,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 83.90003,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 84.37,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 84.8399658,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 85.30994,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 85.77991,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 86.2501144,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 86.4800949,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 86.7100754,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 86.9500656,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 87.1800461,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 87.42004,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 87.65002,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 87.89001,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 88.11998,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 89.52989,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 89.76012,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 90.0001,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 91.8699646,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 92.3399353,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 92.809906,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 93.16,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 93.28012,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 93.51009,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 93.7500839,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 93.9800644,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 94.2100449,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 94.4500351,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 94.6800156,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 95.0389,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 95.14998,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 95.38997,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 95.61995,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 95.84993,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 96.08992,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 96.3199,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 96.55989,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 96.91804,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 97.03889,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 97.26008,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 97.5091,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 97.73908,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 97.96003,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 98.20905,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 98.43903,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 98.89996,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 99.3699341,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 99.8399048,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 100.31012,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 100.659966,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 100.780083,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 101.015923,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 101.254936,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 101.485893,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 101.716118,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 101.956108,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 102.186089,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 102.530075,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 102.6519,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 102.891891,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 103.120895,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 103.3521,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 103.592087,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 103.822067,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 104.06205,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 104.416054,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 104.5369,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 104.766884,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 105.007118,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 105.2371,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 105.467079,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 105.707069,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 105.937042,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 106.8699,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 107.340118,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 107.810081,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 108.167015,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 108.288109,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 108.518089,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 108.75808,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 108.98806,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 109.21804,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 109.458023,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 109.688,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 110.035904,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 110.157974,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 110.397964,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 110.626968,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 110.857925,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 111.097916,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 111.326912,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 111.567879,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 111.913094,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 112.033943,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 112.2649,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 112.503914,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 112.733894,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 112.965088,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 113.2041,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 113.434082,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 113.908936,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 114.378906,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 114.84008,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 115.319084,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 115.664055,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 115.783928,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 116.013908,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 116.2539,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 116.483871,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 116.714096,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 116.954086,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 117.184067,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 117.538071,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 117.657944,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 117.897934,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 118.127914,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 118.357887,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 118.597878,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 118.8281,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 119.068092,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 119.41404,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 119.533913,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 119.763893,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 119.994118,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 120.2341,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 120.464081,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 120.704071,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 120.934052,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 121.400116,
+        "nodeID": 96
+    },
+    {
+        "timeAppear": 121.870079,
+        "nodeID": 96
+    }
+]

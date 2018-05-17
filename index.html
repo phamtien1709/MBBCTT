@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>Music Block</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAKgYqFb3r-G1wPjJxuAF1AYY0If1W3I68",
+            authDomain: "musicblock-24341.firebaseapp.com",
+            databaseURL: "https://musicblock-24341.firebaseio.com",
+            projectId: "musicblock-24341",
+            storageBucket: "musicblock-24341.appspot.com",
+            messagingSenderId: "661076684641"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <script src="libs/phaser.min.js"></script>
+    <script src="libs/jquery-3.2.1.min.js"></script>
+    <script src="libs/jquery-3.2.1.js"></script>
+    <script src="libs/soundanalyse.js"></script>
+    <script src="libs/fingerprint.js"></script>
+    <script src="./src/controller/Bar/ButtonController.js"></script>
+    <script src="./src/controller/PointController.js"></script>
+    <script src="./src/controller/Bar/BarController.js"></script>
+    <script src="./src/controller/NoteController/PianoController.js"></script>
+    <script src="./src/controller/NoteController/NoteBigController.js"></script>
+    <script src="./src/controller/NoteController/NoteMiniController.js"></script>
+    <script src="./src/controller/NoteController/NoteGiftController.js"></script>
+    <script src="./src/effect/EffectController.js"></script>
+    <script src="./src/effect/EffectController2.js"></script>
+    <script src="./src/effect/EffectController3.js"></script>
+    <script src="./src/effect/EffectBG.js"></script>
+    <script src="./src/state/boot.js"></script>
+    <script src="./src/state/load.js"></script>
+    <script src="./src/state/menu.js"></script>
+    <script src="./src/state/play.js"></script>
+    <script src="./src/state/test.js"></script>
+    <script src="./src/state/win.js"></script>
+    <script src="./src/main.js"></script>
+    <script src="js/facebook.js"></script>
+    <script src="js/ajax.js"></script>
+</head>
+<style>
+    body {
+        background: #aabbcc;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
+<body>
+    <script src="js/handleIngame.js"></script>
+</body>
+
+</html>
