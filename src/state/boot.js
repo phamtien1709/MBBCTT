@@ -4,7 +4,12 @@ var bootState = {
 		KT.game.time.advancedTiming = true;
 		KT.game.stage.disableVisibilityChange = true;
 		KT.game.load.image('bg-splash', 'assets/bg-splash.png');
-		// KT.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+		//audio
+		KT.game.load.audio('collideMiniNote', 'assets/sound/collideMiniNote.mp3');
+		KT.game.load.image('fb', 'assets/fb-login.png');
+		KT.game.load.image('bg-loading', 'assets/loadinggame.png');
+		KT.game.load.spritesheet('loadingSS', 'assets/spriteSheetLoading270x233.png', 274, 233, 18);
+		KT.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
 	},
 	create: function () {
 		KT.game.stage.backgroundColor = "#e5f1ff";
@@ -13,11 +18,11 @@ var bootState = {
 		KT.bgSplash.width = KT.game.width;
 		KT.bgSplash.height = KT.game.height;
 		KT.bgSplash.alpha = 0;
-		var tweenBGSplash = KT.game.add.tween(KT.bgSplash).to({ alpha: 1 }, 3000, "Linear");
+		var tweenBGSplash = KT.game.add.tween(KT.bgSplash).to({ alpha: 1 }, 1500, "Linear");
 		tweenBGSplash.start();
 		tweenBGSplash.onComplete.add(() => {
 			// Start the load state
-			var tweenAlphaToZero = KT.game.add.tween(KT.bgSplash).to({ alpha: 0 }, 3000, "Linear");
+			var tweenAlphaToZero = KT.game.add.tween(KT.bgSplash).to({ alpha: 0 }, 1500, "Linear");
 			tweenAlphaToZero.start();
 			tweenAlphaToZero.onComplete.add(() => {
 				KT.game.state.start('load');

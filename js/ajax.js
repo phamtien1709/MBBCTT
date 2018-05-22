@@ -116,32 +116,27 @@ function getUserID(callback) {
                             {
                                 "name": "EmotionalOrchestra7",
                                 "value": "EmotionalOrchestra_BestAudio",
-                                "status": "locked",
-                                "price": 50
+                                "status": "unlocked"
                             },
                             {
                                 "name": "A SIMPLE",
                                 "value": "ASimple",
-                                "status": "locked",
-                                "price": 50
+                                "status": "unlocked"
                             },
                             {
                                 "name": "BeethovenFurElise",
                                 "value": "BeethovenFurElise",
-                                "status": "locked",
-                                "price": 50
+                                "status": "unlocked"
                             },
                             {
                                 "name": "BEAUTIFULIGHT",
                                 "value": "Beautiful_light",
-                                "status": "locked",
-                                "price": 50
+                                "status": "unlocked"
                             },
                             {
                                 "name": "Motivational",
                                 "value": "MotivationalCorporatePiano_GorkemMusic",
-                                "status": "locked",
-                                "price": 50
+                                "status": "unlocked"
                             },
                             {
                                 "name": "EnergyAction",

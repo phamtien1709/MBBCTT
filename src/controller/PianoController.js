@@ -4,16 +4,11 @@ class PianoController {
         this.sprite = KT.pianoGroup.create(x, y, spriteName);
         this.sprite.anchor.set(0.5);
         this.sprite.update = this.update.bind(this);
-        // this.sprite.alpha = 1;
-        // this.sprite.scale.set(0.5);
-        // console.log(this.sprite.position);
         this.sprite.kill();
         this.stretch = KT.game.height - KT.configs.HEIGHT_TOOL- y - 41.5;
         this.time = 700;
         this.velo = 1;
         this.veloAfter = this.stretch/this.time;
-        // console.log(this.stretch,this.veloAfter);
-        // this.acceleration = 10; 
     }
     update() {
         if (KT.checkPlay) {

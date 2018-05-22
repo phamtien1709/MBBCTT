@@ -20,7 +20,7 @@ function checkLoginState(callback) {
 
 window.fbAsyncInit = function () {
   FB.init({
-    appId: '189898824938996',
+    appId: '1946278075689391',
     cookie: true,
     xfbml: true,
     version: 'v2.8'
@@ -38,7 +38,6 @@ function testAPI() {
   KT.checkCallbackLogin = true;
   FB.api(
     '/me', function (response) {
-      // console.log(response.id, response.name);
       KT.checkId = response.id;
       KT.nameFB = response.name;
       // KT.game.state.start('load');

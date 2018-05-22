@@ -15,7 +15,7 @@ var winState = {
             bg_mask.width = KT.game.width;
             bg_mask.height = KT.game.height;
             var nameSong = KT.game.add.text(KT.game.width / 2, KT.game.height / 10, `${nameFindOnListSong.name}`, {
-                font: "30px Roboto",
+                font: "50px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"
@@ -24,20 +24,20 @@ var winState = {
             //draw star previous
             for (i = 0; i < 3; i++) {
                 if (i == 0) {
-                    var star = KT.game.add.sprite(KT.game.width / 4, KT.game.height / 4, 'start');
+                    var star = KT.game.add.sprite(KT.game.width / 4, KT.game.height / 4, 'star');
                     star.anchor.set(0.5);
                 }
                 if (i == 1) {
-                    var star = KT.game.add.sprite(KT.game.width / 2, KT.game.height / 5, 'start');
+                    var star = KT.game.add.sprite(KT.game.width / 2, KT.game.height / 5, 'star');
                     star.anchor.set(0.5);
                 }
                 if (i == 2) {
-                    var star = KT.game.add.sprite(KT.game.width / 4 * 3, KT.game.height / 4, 'start');
+                    var star = KT.game.add.sprite(KT.game.width / 4 * 3, KT.game.height / 4, 'star');
                     star.anchor.set(0.5);
                 }
             }
             var scoreIngame = KT.game.add.text(KT.game.width / 2, KT.game.height / 2.5, `Total Score: ${KT.score}`, {
-                font: "35px Roboto",
+                font: "60px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"
@@ -46,21 +46,21 @@ var winState = {
             var perPercent = Math.floor(KT.perPoint / KT.targetPoint * 100);
             var perAllPercent = Math.floor(KT.perAllPoint / KT.score * 100);
             var perIngame = KT.game.add.text(KT.game.width / 2, KT.game.height / 3.3, `Perfect: ${perPercent} %`, {
-                font: "25px Roboto",
+                font: "45px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"
             });
             perIngame.anchor.set(0.5);
             var perAllIngame = KT.game.add.text(KT.game.width / 2, KT.game.height / 2.5 + 40, `Total Perfect: ${perAllPercent} %`, {
-                font: "25px Roboto",
+                font: "45px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"
             });
             perAllIngame.anchor.set(0.5);
             var scoreInHighscore = KT.game.add.text(KT.game.width / 2, KT.game.height / 1.7, `Best Score: ${nameFindInHighscore.highscore}`, {
-                font: "20px Roboto",
+                font: "40px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"
@@ -114,14 +114,14 @@ var winState = {
             bg_mask.width = KT.game.width;
             bg_mask.height = KT.game.height;
             var nameSong = KT.game.add.text(KT.game.width / 2, KT.game.height / 8, `${nameFindOnListSong.name}`, {
-                font: "30px Roboto",
+                font: "55px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"
             });
             nameSong.anchor.set(0.5);
             var scoreIngame = KT.game.add.text(KT.game.width / 2, KT.game.height / 2.5, `Score: ${KT.score}`, {
-                font: "35px Roboto",
+                font: "60px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"
@@ -129,14 +129,14 @@ var winState = {
             scoreIngame.anchor.set(0.5);
             var perPercent = Math.floor(KT.perPoint / KT.targetPoint * 100);
             var perIngame = KT.game.add.text(KT.game.width / 2, KT.game.height / 2.5 + 40, `Perfect: ${perPercent} %`, {
-                font: "25px Roboto",
+                font: "45px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"
             });
             perIngame.anchor.set(0.5);
             var scoreInHighscore = KT.game.add.text(KT.game.width / 2, KT.game.height / 1.7, `Best Score: ${nameFindInHighscore.highscore}`, {
-                font: "20px Roboto",
+                font: "40px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"
@@ -144,13 +144,10 @@ var winState = {
             scoreInHighscore.anchor.set(0.5);
             var btn_menu = KT.game.add.button(KT.game.width / 4, KT.game.height / 5 * 4, 'btn-menu');
             btn_menu.anchor.set(0.5);
-            btn_menu.scale.set(KT.game.width/1080);
             var btn_replay = KT.game.add.button(KT.game.width / 2, KT.game.height / 5 * 4, 'btn-replay');
             btn_replay.anchor.set(0.5);
-            btn_replay.scale.set(KT.game.width/1080);
             var btn_share = KT.game.add.button(KT.game.width / 4 * 3, KT.game.height / 5 * 4, 'btn-share');
             btn_share.anchor.set(0.5);
-            btn_share.scale.set(KT.game.width/1080);
             //btn click
             btn_menu.events.onInputDown.add(() => {
                 console.log('menu');
@@ -185,7 +182,7 @@ var winState = {
         if (numberOfStar > 0) {
             for (i = 0; i < numberOfStar; i++) {
                 if (i == 0) {
-                    var star = KT.game.add.sprite(KT.game.width / 2, KT.game.height / 2, 'start2');
+                    var star = KT.game.add.sprite(KT.game.width / 2, KT.game.height / 2, 'star2');
                     star.anchor.set(0.5);
                     star.scale.set(0.2);
                     var tweenStar = KT.game.add.tween(star.scale).to({ x: 1, y: 1 }, 1500, 'Linear');
@@ -204,7 +201,7 @@ var winState = {
                     }, this);
                 }
                 if (i == 1) {
-                    var star1 = KT.game.add.sprite(KT.game.width / 2, KT.game.height / 2, 'start2');
+                    var star1 = KT.game.add.sprite(KT.game.width / 2, KT.game.height / 2, 'star2');
                     star1.anchor.set(0.5);
                     star1.scale.set(0.2);
                     star1.alpha = 0;
@@ -229,7 +226,7 @@ var winState = {
                     }, this);
                 }
                 if (i == 2) {
-                    var star2 = KT.game.add.sprite(KT.game.width / 2, KT.game.height / 2, 'start2');
+                    var star2 = KT.game.add.sprite(KT.game.width / 2, KT.game.height / 2, 'star2');
                     star2.anchor.set(0.5);
                     star2.scale.set(0.2);
                     star2.alpha = 0;

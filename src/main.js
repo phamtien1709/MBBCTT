@@ -17,11 +17,11 @@ KT.configs = {
     DISTANCE_GENERATE_SMALL: 10,
     DISTANCE_GENERATE_VERYSMALL: 5,
     TIMEOUT : false,
-    HEIGHT_TOOL: width/9*16 *0.22561141306,
+    HEIGHT_TOOL: 430,
     RATE_SPEED: 0.25
 };
 window.onload = function () {
-    KT.game = new Phaser.Game(KT.configs.GAME_WIDTH, KT.configs.GAME_HEIGHT, Phaser.CANVAS, '', null, false, false);
+    KT.game = new Phaser.Game(1080, 1920, Phaser.CANVAS, '', null, false, false);
     // Add all the states
     KT.game.state.add('boot', bootState);
     KT.game.state.add('load', loadState);
@@ -35,10 +35,6 @@ window.onload = function () {
 // preparations before game starts
 var preload = function () {
     KT.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-    KT.game.scale.minWidth = KT.configs.GAME_WIDTH / 2;
-    KT.game.scale.minHeight = KT.configs.GAME_HEIGHT / 2;
-    KT.game.scale.maxWidth = KT.configs.GAME_WIDTH;
-    KT.game.scale.maxHeight = KT.configs.GAME_HEIGHT;
     KT.game.scale.pageAlignHorizontally = true;
     KT.game.time.advancedTiming = true;
     KT.game.stage.disableVisibilityChange = true;

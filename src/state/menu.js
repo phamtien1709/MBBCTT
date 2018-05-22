@@ -40,7 +40,7 @@ var menuState = {
 		// // Explain how to start the game
 		//other style drop
 		KT.txt_load = KT.game.add.text(KT.game.width / 20, KT.game.height / 100, 'Wait', {
-			font: "20px Roboto",
+			font: "50px Roboto",
 			fill: "white",
 			boundsAlignH: "center",
 			boundsAlignV: "middle"
@@ -55,7 +55,7 @@ var menuState = {
 		heartSprite.anchor.set(0.5);
 		heartSprite.scale.set(KT.game.width / 1080);
 		KT.heart_count = KT.game.add.text(KT.game.width / 2.2, KT.game.height / 28, `${KT.heart}/15`, {
-			font: "20px Roboto",
+			font: "50px Roboto",
 			fill: "white",
 			boundsAlignH: "center",
 			boundsAlignV: "middle"
@@ -69,7 +69,7 @@ var menuState = {
 		diamondSprite.anchor.set(0.5);
 		diamondSprite.scale.set(KT.game.width / 1080);
 		KT.diamond_count = KT.game.add.text(KT.game.width * 5 / 6, KT.game.height / 28, `${KT.diamond}`, {
-			font: "20px Roboto",
+			font: "50px Roboto",
 			fill: "white",
 			boundsAlignH: "center",
 			boundsAlignV: "middle"
@@ -104,7 +104,7 @@ var menuState = {
 		KT.bg_color.width = KT.game.width;
 		KT.bg_color.kill();
 		KT.txt_loading = KT.game.add.text(KT.game.world.centerX, KT.game.world.centerY, 'Loading...', {
-			font: "60px Roboto",
+			font: "100px Roboto",
 			fill: "white",
 			boundsAlignH: "center",
 			boundsAlignV: "middle"

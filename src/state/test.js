@@ -1,7 +1,8 @@
-// import { setInterval } from "timers";
-
 var testState = {
     preload: function () {
+		KT.game.load.onLoadStart.removeAll();
+		KT.game.load.onFileComplete.removeAll();
+		KT.game.load.onLoadComplete.removeAll();
         // KT.game.load.audio('music', 'assets/Music/DemoHalleujah.mp3');
     },
     create: function () {
@@ -54,25 +55,25 @@ var testState = {
         KT.timeFirst = false;
         KT.checkPlay = false;
         KT.style = {
-            font: "20px Roboto",
+            font: "70px Roboto",
             fill: "white",
             boundsAlignH: "center",
             boundsAlignV: "middle"
         };
         KT.style2 = {
-            font: "32px Roboto",
+            font: "80px Roboto",
             fill: "white",
             boundsAlignH: "center",
             boundsAlignV: "middle"
         };
         KT.style3 = {
-            font: "15px Roboto",
+            font: "40px Roboto",
             fill: "#fffb1c",
             boundsAlignH: "center",
             boundsAlignV: "middle"
         };
         KT.style4 = {
-            font: "25px Roboto",
+            font: "50px Roboto",
             fill: "#2bffdf",
             boundsAlignH: "center",
             boundsAlignV: "middle"
@@ -124,7 +125,7 @@ var testState = {
         KT.effBGGroup = KT.game.add.physicsGroup();
         KT.listEffBG = ['effbg1', 'effbg2', 'effbg3', 'effbg4', 'effbg5']
         KT.targetPoint = KT.NOTEAllDefault.length;
-        KT.bar = new BarController(KT.game.world.centerX, KT.game.height - KT.configs.HEIGHT_TOOL);
+        KT.bar = new BarController(KT.game.world.centerX,1496);
         var line = KT.game.add.sprite(KT.game.world.centerX, KT.game.height - KT.configs.HEIGHT_TOOL, 'line');
         line.anchor.set(0.5);
         line.alpha = 0;
@@ -132,28 +133,21 @@ var testState = {
         KT.btn_play.anchor.set(0.5);
         KT.btn_play.events.onInputDown.add(() => {
             KT.song.stop();
-            var spriteGuide = KT.game.add.sprite(KT.game.world.centerX, KT.game.height - KT.configs.HEIGHT_TOOL - 50, 'holdhand');
+            var spriteGuide = KT.game.add.sprite(KT.game.world.centerX, 1645, 'holdhand');
             spriteGuide.anchor.set(0.5);
             spriteGuide.alpha = 0.6;
-            spriteGuide.scale.set(0.7);
             var tweenGuide = KT.game.add.tween(spriteGuide.scale).to({ x: 1, y: 1 }, 700, "Linear", true, 0, -1);
-            var hand = KT.game.add.sprite(KT.game.world.centerX - 150, KT.game.height - KT.configs.HEIGHT_TOOL + 15, 'hand');
+            var hand = KT.game.add.sprite(KT.game.world.centerX - 150, 1590, 'hand');
             hand.anchor.set(0.5);
             hand.scale.set(0.4);
             hand.alpha = 0.6;
-            var tweenHand = KT.game.add.tween(hand).to({ x: '+300' }, 1500, "Linear", true, 0, -1);
+            var tweenHand = KT.game.add.tween(hand).to({ x: '+600' }, 1500, "Linear", true, 0, -1);
             tweenHand.yoyo(true, 1500);
             tweenGuide.yoyo(true, 700);
             KT.testFisrtDone = true;
             this.countDownStart(spriteGuide, hand, tweenGuide, tweenHand);
         });
         //bring to top
-
-        // if (KT.reMenu) {
-        //     var graphics = KT.game.add.graphics(0, 0);
-        //     graphics.beginFill(0x0099ff, 1);
-        //     graphics.drawRect(0, 0, KT.game.width, KT.game.height);
-        // }
         // create new Sprite sound analyse object
         // // show frequency domain chart bars
     },
