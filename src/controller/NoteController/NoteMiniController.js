@@ -2,13 +2,13 @@ class NoteMiniController {
     constructor(x, configs){
         this.configs = configs;
         if(this.configs.key == 'greenX3'){
-            this.sprite = KT.miniNoteGroup.create(x,KT.game.height - KT.configs.HEIGHT_TOOL - 200, 'greenMini');
+            this.sprite = KT.miniNoteGroup.create(x,1200, 'greenMini');
         }
         else if(this.configs.key == 'orangeX3'){
-            this.sprite = KT.miniNoteGroup.create(x,KT.game.height - KT.configs.HEIGHT_TOOL - 200, 'orangeMini');
+            this.sprite = KT.miniNoteGroup.create(x,1200, 'orangeMini');
         } 
         else if(this.configs.key == 'violetX3'){
-            this.sprite = KT.miniNoteGroup.create(x,KT.game.height - KT.configs.HEIGHT_TOOL - 200, 'violetMini');
+            this.sprite = KT.miniNoteGroup.create(x,1200, 'violetMini');
         }         
         KT.game.physics.enable(this.sprite, Phaser.Physics.ARCADE);
         this.sprite.anchor.set(0.5);
@@ -21,13 +21,13 @@ class NoteMiniController {
         }
         var rndY = -KT.veloYMini;
         KT.veloYMini -= 60;
-        this.sprite.body.velocity.setTo(rndX, rndY);
+        this.sprite.body.velocity.setTo(rndX*13, rndY);
         this.sprite.body.collideWorldBounds = true;
         this.sprite.body.bounce.setTo(1, 1);
         this.sprite.update = this.update.bind(this);
     }
     update(){
-        this.sprite.body.velocity.y +=15;
+        this.sprite.body.velocity.y +=5;
         if (this.sprite.position.y > KT.game.height - KT.configs.HEIGHT_TOOL+25) {
             // console.log(KT.timeoutPlay.ms);
             this.sprite.destroy();

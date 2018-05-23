@@ -18,7 +18,7 @@ function getUserID(callback) {
                         "userID": KT.checkId,
                         "userName": KT.nameFB,
                         "heart": 15,
-                        "diamond": 0,
+                        "diamond": 500,
                         "highscore": [
                             {
                                 "song": "faded",

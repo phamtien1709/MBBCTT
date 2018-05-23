@@ -20,6 +20,7 @@ var menuState = {
 		KT.bg.smoothed = false;
 		KT.idCreated = 0;
 		KT.previousName = 0;
+		KT.isUnlock = false;
 		KT.styleMenu = {
 			font: "20px pixelFont",
 			fill: "white",
@@ -127,21 +128,33 @@ var menuState = {
 		var setting_tab = KT.game.add.button(KT.game.width / 8 * 7, KT.game.height * 14 / 15, 'setting');
 		setting_tab.anchor.set(0.5);
 		setting_tab.scale.set(KT.game.width / 1080);
+		var txt_comingSoon = KT.game.add.text(540, 960, 'Coming Soon..', {
+			font: "60px Roboto",
+			fill: "white",
+			boundsAlignH: "center",
+			boundsAlignV: "middle"
+		});
+		txt_comingSoon.anchor.set(0.5);
+		txt_comingSoon.kill();
 		music_tab.events.onInputDown.add(() => {
 			console.log('music_tab');
 			KT.grap.revive();
+			txt_comingSoon.kill();
 		});
 		shop_tab.events.onInputDown.add(() => {
 			console.log('shop_tab');
+			txt_comingSoon.revive();
 			KT.grap.kill();
 		});
 		setting_tab.events.onInputDown.add(() => {
 			console.log('setting_tab');
 			KT.grap.kill();
+			txt_comingSoon.revive();
 		});
 		rank_tab.events.onInputDown.add(() => {
 			console.log('rank_tab');
 			KT.grap.kill();
+			txt_comingSoon.revive();
 		});
 		// When the 'upKey' is pressed, it will call the 'start' function once
 	},
@@ -188,7 +201,9 @@ var menuState = {
 	},
 	loadComplete: function () {
 		KT.txt_load.setText("Load Complete");
-		KT.game.state.start('test');
+		if(KT.isUnlock){
+			KT.game.state.start('test');
+		}
 	},
 	repTimeoutGenHeart: function () {
 		console.log('update heart');
@@ -244,7 +259,6 @@ var menuState = {
 			} else {
 				var starList = [0, 0, 0];
 			}
-			// console.log(starList);
 			//draw star
 			for (i = 0; i < starList.length; i++) {
 				if (starList[i] == 0) {
@@ -318,7 +332,7 @@ var menuState = {
 		}
 		//locked
 		else if (songData.status == "locked") {
-			var btn_play = KT.game.add.button(350, 30, 'unlock');
+			let btn_play = KT.game.add.button(350, 30, 'unlock');
 			btn_play.anchor.set(0.5);
 			tabSong.addChild(btn_play);
 			var play_music = KT.game.add.sprite(-370, 0, 'music-gem');
@@ -358,7 +372,6 @@ var menuState = {
 			KT.x2Notes.push(x2Notes[i]);
 		}
 		KT.timeDuration = timeDuration;
-		// KT.song = KT.game.add.audio('aman');
 		// console.log('faded')
 		KT.nameOfSong = nameOfSong;
 		console.log(songData.value);
@@ -379,6 +392,7 @@ var menuState = {
 		this.createNoteDefault(KT.violetNotesDefault, KT.violetNotes);
 		this.createNoteDefault(KT.greenNotesDefault, KT.greenNotes);
 		KT.ready = true;
+		KT.isUnlock = true;
 		this.loadSong(KT.nameOfSong, `assets/Music/${KT.nameOfSong}.mp3`);
 	},
 	createNoteDefault: function (arrDefault, arrToDefault) {

@@ -55,6 +55,6 @@ class NoteBigController{
                 key : noteBigSprite.key
             }));
         }
-        KT.veloYMini = 700;
+        KT.veloYMini = 1000;
     }
 }

@@ -3,7 +3,6 @@ var winState = {
 
     },
     create: function () {
-        // console.log(KT.highscore);
         var nameFindInHighscore = KT.highscore.find((obj)=>{
             return obj.song == KT.nameOfSong;
         });
@@ -15,7 +14,7 @@ var winState = {
             bg_mask.width = KT.game.width;
             bg_mask.height = KT.game.height;
             var nameSong = KT.game.add.text(KT.game.width / 2, KT.game.height / 10, `${nameFindOnListSong.name}`, {
-                font: "50px Roboto",
+                font: "70px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"
@@ -37,7 +36,7 @@ var winState = {
                 }
             }
             var scoreIngame = KT.game.add.text(KT.game.width / 2, KT.game.height / 2.5, `Total Score: ${KT.score}`, {
-                font: "60px Roboto",
+                font: "65px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"
@@ -46,21 +45,21 @@ var winState = {
             var perPercent = Math.floor(KT.perPoint / KT.targetPoint * 100);
             var perAllPercent = Math.floor(KT.perAllPoint / KT.score * 100);
             var perIngame = KT.game.add.text(KT.game.width / 2, KT.game.height / 3.3, `Perfect: ${perPercent} %`, {
-                font: "45px Roboto",
+                font: "55px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"
             });
             perIngame.anchor.set(0.5);
-            var perAllIngame = KT.game.add.text(KT.game.width / 2, KT.game.height / 2.5 + 40, `Total Perfect: ${perAllPercent} %`, {
-                font: "45px Roboto",
+            var perAllIngame = KT.game.add.text(KT.game.width / 2, 900, `Total Perfect: ${perAllPercent} %`, {
+                font: "55px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"
             });
             perAllIngame.anchor.set(0.5);
             var scoreInHighscore = KT.game.add.text(KT.game.width / 2, KT.game.height / 1.7, `Best Score: ${nameFindInHighscore.highscore}`, {
-                font: "40px Roboto",
+                font: "50px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"
@@ -114,29 +113,29 @@ var winState = {
             bg_mask.width = KT.game.width;
             bg_mask.height = KT.game.height;
             var nameSong = KT.game.add.text(KT.game.width / 2, KT.game.height / 8, `${nameFindOnListSong.name}`, {
-                font: "55px Roboto",
+                font: "70px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"
             });
             nameSong.anchor.set(0.5);
-            var scoreIngame = KT.game.add.text(KT.game.width / 2, KT.game.height / 2.5, `Score: ${KT.score}`, {
-                font: "60px Roboto",
+            var scoreIngame = KT.game.add.text(KT.game.width / 2, 800, `Score: ${KT.score}`, {
+                font: "65px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"
             });
             scoreIngame.anchor.set(0.5);
             var perPercent = Math.floor(KT.perPoint / KT.targetPoint * 100);
-            var perIngame = KT.game.add.text(KT.game.width / 2, KT.game.height / 2.5 + 40, `Perfect: ${perPercent} %`, {
-                font: "45px Roboto",
+            var perIngame = KT.game.add.text(KT.game.width / 2,700, `Perfect: ${perPercent} %`, {
+                font: "60px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"
             });
             perIngame.anchor.set(0.5);
             var scoreInHighscore = KT.game.add.text(KT.game.width / 2, KT.game.height / 1.7, `Best Score: ${nameFindInHighscore.highscore}`, {
-                font: "40px Roboto",
+                font: "55px Roboto",
                 fill: "white",
                 boundsAlignH: "center",
                 boundsAlignV: "middle"

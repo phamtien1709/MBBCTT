@@ -67,7 +67,7 @@ var testState = {
             boundsAlignV: "middle"
         };
         KT.style3 = {
-            font: "40px Roboto",
+            font: "60px Roboto",
             fill: "#fffb1c",
             boundsAlignH: "center",
             boundsAlignV: "middle"
@@ -123,7 +123,7 @@ var testState = {
         KT.txtLet.anchor.set(0.5);
         KT.txtLet.kill();
         KT.effBGGroup = KT.game.add.physicsGroup();
-        KT.listEffBG = ['effbg1', 'effbg2', 'effbg3', 'effbg4', 'effbg5']
+        KT.listEffBG = ['effbg1', 'effbg2', 'effbg3', 'effbg4', 'effbg5'];
         KT.targetPoint = KT.NOTEAllDefault.length;
         KT.bar = new BarController(KT.game.world.centerX,1496);
         var line = KT.game.add.sprite(KT.game.world.centerX, KT.game.height - KT.configs.HEIGHT_TOOL, 'line');
